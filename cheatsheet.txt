@@ -1,0 +1,18 @@
+To build a go programs whenever we write code:
+    > go build main.go
+To run  a go program:
+    > go run main.go
+
+We can put our source files anywhere like any folder we like.
+
+To run multiple go files: 
+    > go run .
+
+Two files can contain different functions and purpose maybe different
+but in one folder one of the files should contain main() if multiple files consists
+it will result in compile error.
+
+Any folder you choose becomes a package when its .go files start with package main.
+But atleast one file should contain func main()
+
+To execute run > go run . inside the package or its own folder.
