@@ -17,4 +17,4 @@ But atleast one file should contain func main()
 
 To execute run > go run . inside the package or its own folder.
 
-Go-lang was invented or developed by google in maybe 2016 or 2015 i dont know.s
+Go-lang was invented or developed by google in maybe 2016 or 2015 i dont know.
