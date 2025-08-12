@@ -16,3 +16,5 @@ Any folder you choose becomes a package when its .go files start with package ma
 But atleast one file should contain func main()
 
 To execute run > go run . inside the package or its own folder.
+
+Go-lang was invented or developed by google
