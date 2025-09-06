@@ -1,17 +1,19 @@
 package main
 
 import (
-	"fmt"
+	creategomod "create_go_mod"
+	"fmt" //importing custom module
 
 	"rsc.io/quote"
 ) //importing quote package
 
 func main() {
 	fmt.Println("hi i want to learn go", "i hate javascript")
-	yes()
 
 	//calling code in an external package,
 	fmt.Println(quote.Go())
+	message := creategomod.HelloFucker("harsha")
+	fmt.Println(message)
 
 }
 
