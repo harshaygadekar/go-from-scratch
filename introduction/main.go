@@ -10,7 +10,7 @@ func main() {
 	fmt.Println("hi i want to learn go", "i hate javascript")
 	yes()
 
-	//calling code in an external package
+	//calling code in an external package,
 	fmt.Println(quote.Go())
 
 }
