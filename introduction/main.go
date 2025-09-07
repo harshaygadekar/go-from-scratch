@@ -12,7 +12,7 @@ func main() {
 
 	//calling code in an external package,
 	fmt.Println(quote.Go())
-	message := creategomod.HelloFucker("harsha")
+	message := creategomod.Hello("harsha")
 	fmt.Println(message)
 
 }

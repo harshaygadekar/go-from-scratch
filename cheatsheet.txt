@@ -15,5 +15,34 @@ it will result in compile error.
 Any folder you choose becomes a package when its .go files start with package main.
 But atleast one file should contain func main()
 
-To execute run > go run . inside the package or its own folder.
+> To execute run > go run . inside the package or its own folder.
+
+> Before running the code: 1. initialize the module in the main directory, and then go through the 
+project directory and run : /go run .
+
+> before adding any external package and before using functions
+use command: /go get rsc.io/quote 
+
+> command: go mod tidy -> tidy is a depenedency manager and it adds missing depenedency and updates the checksums
+
+
+!!! module import error ==================================
+
+> to import package from other folders or to call modules, 1st adda replace directive to go.mod
+    >go mod edit -replace create_go_mod=../create_go_mod  
+    This tells Go where to find your local create_go_mod module (in the parent directory's create_go_mod folder)
+
+> export the function in greetings.go
+    to export a function we have to write in caps form. ex: func hello_fucker() after: HelloFucker()
+    go func must start from caps to be exported
+
+> added correct function call in main go
+> updated depenedency using: go mod tidy
+=================================================================
+
+> go fmt hello.go -> this command is used to format code (optional)
+
+> go build hello.go -> compile code
+
+> go run hello.go -> directly runs a program without saving an exe file.
 

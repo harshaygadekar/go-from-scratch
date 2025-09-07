@@ -1,0 +1,23 @@
+> A string is a series of bytes that usually
+represent text characters.
+
+> A rune represents a single text character.
+
+> go's most two numeric types are int, for integers and float64 which holds decimal values
+
+> bool -> boolean types: true and false
+
+> if no value assigned to variable it will contain zero value for its types, 0 for int, float64 and " " -> string
+
+> we can declare a variable and assign it value at a same time using := (short var declaration)
+
+>a variable function or type can only be accessed from other package only if it starts from caps letter
+
+> cant do math ops on diff types but we can typecast
+
+================================================================
+
+errors encountered: he error "package command-line-arguments is not a main package" occurs because your file has package godatatypes but contains a main function. 
+In Go, only files with package main can have a main function and be run directly.
+
+========================================================================
