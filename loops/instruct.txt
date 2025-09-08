@@ -1,0 +1,2 @@
+> in go its possible to define methods.
+functions that are associated wit values of given types.
